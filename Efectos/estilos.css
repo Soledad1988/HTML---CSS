@@ -1,0 +1,29 @@
+/* Color fondo*/
+body {
+    background: rgb(192, 236, 192);
+}
+
+/*Estilo y alineacion del titulo*/
+h2 {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+/*Sacamos las biñetas a las listas*/
+ul {
+    list-style: none;
+}
+
+/*Alineacion de imagenes y margenes*/
+#lista li {
+    display:inline;
+    padding-left:3px;
+    padding-right:3px;
+}
+
+/*Efectos*/
+.sepia:hover {filter: sepia(60%);}
+
+.Gris:hover {filter: grayscale(80%);}
+
+.borroso:hover {filter: blur(5px);}
