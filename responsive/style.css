@@ -1,0 +1,32 @@
+
+.container{
+    display: flex;
+}
+
+/* Estilos para pantallas más pequeñas (hasta 768px) */
+@media (max-width: 768px) {
+    /* Aquí puedes escribir los estilos que se aplicarán en pantallas más
+    pequeñas */
+    body {
+    font-size: 16px;
+    color: blue;
+    }
+    .container {
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+    }
+    }
+    /* Estilos para pantallas más grandes (a partir de 769px) */
+    @media (min-width: 769px) {
+    /* Aquí puedes escribir los estilos que se aplicarán en pantallas más
+    grandes */
+    body {
+    font-size: 18px;
+    color: red;
+    }
+    .container {
+    width: 80%;
+    margin: 0 auto;
+    }
+    }
