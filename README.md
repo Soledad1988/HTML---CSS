@@ -1,2 +1,1 @@
-# Efecto---Im-genes
-Efectos de imágenes con CSS - Básico
+# Curso básico de HTML, CSS, y Javascript
