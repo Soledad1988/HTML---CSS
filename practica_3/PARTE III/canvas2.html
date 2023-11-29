@@ -1,0 +1,26 @@
+<canvas width="600" height="400"> <!--Definimos alncho y altura tamaño de la pizarra-->
+
+</canvas>
+
+
+<script>
+
+    function dibujarCuadradoVerde(x,y){
+        var pantalla = document.querySelector("canvas");//conecta las etiquetas html con la info de javascrypt
+        var pincel = pantalla.getContext("2d"); 
+
+        pincel.fillStyle = "green";
+        pincel.fillRect(x,y,50,50);
+        pincel.strokeStyle = "black";
+        pincel.strokeRect(x,y,50,50);
+
+    }
+   
+    dibujarCuadradoVerde(0,0);
+    dibujarCuadradoVerde(0,50);
+    dibujarCuadradoVerde(0,100);
+    dibujarCuadradoVerde(0,150);
+    
+
+   
+</script>
